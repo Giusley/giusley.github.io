@@ -1,0 +1,90 @@
+
+
+
+
+
+
+/********* EM USO ***********/
+/* header menu span */
+@font-face{
+	font-family:PTSerif-Regular;
+	src:url(../fontes/PT_Serif/PTSerif-Regular.ttf);
+	font-weight:400;font-style:regular;
+}
+@font-face{
+	font-family:PTSerif-Italic;
+	src:url(../fontes/PT_Serif/PTSerif-Italic.ttf);
+	font-weight:400;font-style:italic;
+}
+@font-face{
+	font-family:PTSerif-Bold;
+	src:url(../fontes/PT_Serif/PTSerif-Bold.ttf);
+	font-weight:700;font-style:bold;
+}
+
+/* Ilustrador / Desenvolvedor Web / Designer Gráfico */
+@font-face{
+	font-family:Cinzel-Variable;
+	src:url(../fontes/Cinzel/Cinzel-VariableFont_wght.ttf);
+	
+}
+
+/* ------------------------ */
+@font-face{
+	font-family:Bitter;
+	src:url(../fontes/Bitter/Bitter-VariableFont_wght.ttf);
+	
+}
+
+/********* ****** ***********/
+@font-face{
+	font-family:BT;
+	src:url(../fontes/BT.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+
+
+@font-face{
+	font-family:Good_Times;
+	src:url(../fontes/Good_Times.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+
+@font-face{
+	font-family:BORG9;
+	src:url(../fontes/BORG9.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:CLARITTY;
+	src:url(../fontes/CLARITTY.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:EQUINE;
+	src:url(../fontes/EQUINE.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:JOYSTIX;
+	src:url(../fontes/JOYSTIX.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:MAIAN;
+	src:url(../fontes/MAIAN.ttf);
+	font-weight:200;
+	font-style:normal;
+}
+@font-face{
+	font-family:Transistor_Regular;
+	src:url(../fontes/Transistor Regular.ttf);
+	font-weight:200;
+	font-style:normal;
+}

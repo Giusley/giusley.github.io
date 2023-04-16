@@ -1,0 +1,24 @@
+
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: auto;
+	height: 0.4vw;
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: #252C48;
+    border-left: 0px solid #012
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #4C84FFcc;border-radius:2px 2px 2px 2px;
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #4C84FFff
+}
