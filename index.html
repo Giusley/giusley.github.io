@@ -15,7 +15,24 @@
 	
 	<link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
 	<script defer src="fontawesome-free-5.15.4-web/js/solid.js"></script>
-	
+	<script type="module">
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
+ 
+  const firebaseConfig = {
+    apiKey: "AIzaSyDFrP3Ws_GIIi6jGyEC835DRI35SjmjpUM",
+    authDomain: "enigma-952ef.firebaseapp.com",
+    projectId: "enigma-952ef",
+    storageBucket: "enigma-952ef.appspot.com",
+    messagingSenderId: "664348422072",
+    appId: "1:664348422072:web:7ccd692647fa5b9a70294d",
+    measurementId: "G-XFMV2EYJ3Z"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 	<script type="application/x-javascript">
          addEventListener("load", function () {
          	setTimeout(hideURLbar, 0);
