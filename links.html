@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#171c32">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#171c32">
+	<meta name="msapplication-navbutton-color" content="#171c32">
+    <title>Exemplo de Site de Links</title>
+	<style>
+	::selection {
+		background: #c10b3dc7;
+		color: #fcfcff;
+		}
+		/* Largura da barra de rolagem */
+		::-webkit-scrollbar {
+			width: auto;
+			height: auto;
+		}
+
+		/* Fundo da barra de rolagem */
+		::-webkit-scrollbar-track-piece {
+			background-color: #252C48 ;
+			border-left: 0px solid #012
+		}
+
+		/* Cor do indicador de rolagem */
+		::-webkit-scrollbar-thumb:vertical,
+		::-webkit-scrollbar-thumb:horizontal {
+			background-color: #4C84FFcc;border-radius:2px 2px 2px 2px;
+		}
+
+		/* Cor do indicador de rolagem - ao passar o mouse */
+		::-webkit-scrollbar-thumb:vertical:hover,
+		::-webkit-scrollbar-thumb:horizontal:hover {
+			background-color: #4C84FFff
+		}
+
+		a:-webkit-any-link{
+			color:#aCf4FF;
+			text-decoration:none;
+			outline-color: #4C84FF;
+			outline-offset:0px;
+			width:fit-content!important;
+		}
+		a:-webkit-any-link:hover{
+			color:#fff;
+		}
+		
+		body{
+		background-color:#171c32;
+		background-image:url(img/editar/backgroundcinza-01.webp);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+		color:#4C84FF;
+		position:fixed;
+		margin:0;padding:0;
+		width:100%;
+		height:100vh;
+		display:flex;
+		gap:.25em;
+		flex-direction:column;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		z-index:1;
+		}
+		
+		body:before{
+		content:'';
+		width: -webkit-fill-available;
+		height: -webkit-fill-available;
+		display:block;
+		position:absolute;
+		left:0;top:0;
+		background-color:transparent;
+		background-image:url(img/foto2.png);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-position:center right;
+		background-size:contain;
+		backdrop-filter:drop-shadow(0 0 3px #000);
+		filter:opacity(.25);
+		z-index:-1;
+		animation: opacin 1s ease-in;
+		  animation-iteration-count:1;
+		
+		}
+		
+		h1{
+		width:max-content;
+		height:10vh;
+		position:fixed;
+		display:block;
+		bottom:-8vh;
+		left:4vh;
+		transform:rotate(-90deg);
+		transform-origin:left;
+		opacity:.555;
+		padding-block-start:.25em;
+		font-size:8vh;
+		line-height:10vh;
+		z-index:1;
+		cursor:pointer;
+		}
+		
+		body a{
+		  text-decoration: none;
+		  color: #252C48;
+		  padding: .25em;
+		  gap:.25em;
+		  max-width:calc(50% - 1em);
+		  border-bottom: 2px solid transparent;
+		  display:flex;
+		  align-items: center;
+			justify-content: center;
+			flex-direction: row;
+			flex-wrap: nowrap;
+		  line-height:calc(10vh - 1em);
+		  min-width:calc(25vw - 1em);
+		  opacity:.975;
+		  transition:opacity 250ms ease-in-out,color 250ms linear;
+		  background-color:#22222282;
+		  border-radius:.5em .5em .5em .5em;
+		  animation: opacin 2s ease-in;
+		  animation-iteration-count:1;
+		  
+		}
+		@keyframes opacin{
+		from{opacity:0}
+		to{opacity:.975}
+		}
+		body a:hover{
+		opacity:1;
+		color:#fff;
+		background-color:#222222ff;
+		}
+		
+		img{
+		width:5vh;
+		height:5vh;
+		position:relative;
+		margin:.25em;
+		}
+		
+		body span{
+		font-size:2em;
+		  font-family:Arial;
+		}
+		
+		@media only screen and (max-width: 1199px) {
+			body{
+				flex-direction:column;
+				flex-flow: column-reverse;
+				
+			}
+			body:before{
+				background-position:center top;
+				background-size:cover 100%;
+			}
+			body a{
+				width:-webkit-fill-available!important;
+				background-color:transparent;
+				
+				 max-width:-webkit-fill-available!important;
+			}
+		
+		}
+
+	
+	</style>
+	
+</head>
+
+	<body>
+		<h1>Giusley Camilo</h1>
+		<a style="display:none;" href="tel:+31987438156"><img src="img/contato/call.png" alt="Ícone de telefone"><span>Ligar</span></a>
+		<a style="display:none;" href="https://api.whatsapp.com/send?phone=31987438156"><img src="img/contato/whatsapp.png" alt="Ícone do WhatsApp"><span>WhatsApp</span></a>
+		<a style="display:none;" href="mailto:giusley3@gmail.com"><img src="img/contato/email.png" alt="Ícone de e-mail"><span>Email</span></a>
+		<a style="display:none;" href="media/GiusleyCamiloDEV.pdf" download><img src="img/contato/card.png" alt="Ícone de cartão de visita"><span>Cartão de Visita</span></a>
+		<a href="https://giusley.com.br" target="_blank"><img src="img/contato/siteicon.png" alt="Ícone do site"><span>website</span></a>
+		<a href="https://br.linkedin.com/in/giusley-camilo-18139898" target="_blank"><img src="img/contato/lilin.png" alt="Ícone do LinkedIn"><span>LinkedIn</span></a>
+		<a href="https://www.facebook.com/giusley" target="_blank"><img src="img/contato/lifac.png" alt="Ícone do Facebook"><span>Facebook</span></a>
+		<a href="https://www.instagram.com/giusley2/" target="_blank"><img src="img/contato/liins.png" alt="Ícone do Instagram"><span>Instagram</span></a>
+		<a href="https://twitter.com/giusley3" target="_blank"><img src="img/contato/litwi2.png" alt="Ícone do Twitter"><span>Twitter</span></a>
+		<a id='codepenLink' href="https://codepen.io/Giusley-Camilo" target="_blank"><img src="img/contato/licod.png" alt="Ícone do CodePen"><span>CodePen</span></a>
+		<a href="https://github.com/Giusley" target="_blank"><img src="img/contato/ligit.png" alt="Ícone do GitHub"><span>GitHub</span></a>
+<script type="text/javascript">
+		const body = document.getElementsByTagName('body')[0];
+		const h1 = document.getElementsByTagName('h1')[0];
+		const a = document.querySelectorAll('a');
+		const arr = ['31987438156',
+		'WhatsApp',
+		'giusley3@gmail.com',
+		'Baixar pdf',
+		'Conheça meu site',
+		'Perfil no Linkedin',
+		'Giusley Camilo GF',
+		//'fb.com/giusley',
+		'@giusley2',
+		'@giusley3',
+		'Perfil no CodePen',
+		'Perfil no GitHub'
+		]
+		var originals = [];
+		Array.from(a).forEach((elm,ind) =>{
+			originals.push(elm.lastElementChild.textContent)
+			elm.addEventListener('mouseover', (event)=>{
+				elm.lastElementChild.textContent = arr[ind]
+			})
+			elm.addEventListener('mouseleave', (event)=>{
+				elm.lastElementChild.textContent = originals[ind]
+			})
+			elm.title = elm.href
+		})
+		
+		h1.onclick = ()=>{
+			window.location.href = 'https://giusley.com.br';
+		}
+		
+		h1.title = 'https://giusley.com.br'
+
+
+	</script>
+	</body>
+
+</html>
