@@ -3,7 +3,7 @@
 <head>
 	<title>Giusley Camilo Arruda</title>
 	<meta charset="utf-8"/>
-	<!-- nao trate como constante quem te trata como variavel :p -->
+	<!--  nao trate como constante quem te trata como variavel :p   -->
 	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -12,77 +12,373 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#171c32">
 	<meta name="msapplication-navbutton-color" content="#171c32">
 	<!-- <link rel="manifest" href="favicon_io/site.webmanifest"> -->
-	
+
+
 	<link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
-	<script defer src="fontawesome-free-5.15.4-web/js/solid.js"></script>
-	<script type="module">
- import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
- 
-  const firebaseConfig = {
-    apiKey: "AIzaSyDFrP3Ws_GIIi6jGyEC835DRI35SjmjpUM",
-    authDomain: "enigma-952ef.firebaseapp.com",
-    projectId: "enigma-952ef",
-    storageBucket: "enigma-952ef.appspot.com",
-    messagingSenderId: "664348422072",
-    appId: "1:664348422072:web:7ccd692647fa5b9a70294d",
-    measurementId: "G-XFMV2EYJ3Z"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-	<script type="application/x-javascript">
-         addEventListener("load", function () {
-         	setTimeout(hideURLbar, 0);
-         }, false);
-         
-         function hideURLbar() {
-         	window.scrollTo(0, 1);
-         }
-    </script>
-
-	<link rel="preload" as="image" href="img/foto2.png" imagesrcset="img/foto2.png 300w, img/foto00.png 1200w" imagesizes="50vw">
-	<link rel="prefetch" href="img/assinatura2.png"></link>
+	<!-- <script defer src="fontawesome-free-5.15.4-web/js/solid.js"></script> -->
+	<script defer type="text/javascript" src="js/app.js"></script>
+	
+	<!-- <link rel="preload" as="font" href="fontes/MAIAN.ttf" crossorigin=""> 
+	
+	<link rel="prefetch" href="img/glider1.svg"></link>
+	<link rel="prefetch" href="img/glider2.svg"></link>
+	<link rel="prefetch" href="img/glider3.svg"></link>
+	<link rel="prefetch" href="img/glider4.svg"></link>-->
 	
 </head>
 <body>
 	<!-- meu site é uma verdadeira representação de como sou como artista. -->
-	<div id="wrapper">
-	
-		<nav id="nav">
-			<a href="#" class="icon active"><span>Perfil</span></a>
-			<a href="#resumo" class="icon"><span>Resumo</span></a>
-			<a href="#portfolio" class="icon"><span>Portfólio</span></a>
-			<a href="#contato" class="icon"><span>Contato</span></a>
+	<div id="wrapper"><img id='logo' draggable="false" src="img/assinatura2.png" alt="" />
+		<nav>
+			
+			
+			<ul id="menuLinks">
+				<li><a href="#" class="icon-link active"><span>Perfil</span></a></li>
+				<li><a href="#resumo" class="icon-link"><span>Resumo</span></a></li>
+				<li><a href="#portfolio" class="icon-link"><span>Portfólio</span></a></li>
+				<li><a href="#contato" class="icon-link"><span>Contato</span></a></li>
+			</ul>
+			
+			
 		</nav>
-		
 		<aside>&nbsp;</aside>
 		
 		<main>
-		
-			<section>
-				<header>
-					<h1>Giusley Camilo</h1>
-					<p id="myAttr">Ilustrador / Desenvolvedor Web / Designer Gráfico</p>
-					<div>
-				<em><i class="fas fa-quote-left">&nbsp;</i>Meu site é uma verdadeira representação de como sou como artista.&nbsp;<i class="fas fa-quote-right" style="align-self: end;"></i></em>
-				</div>
-				</header>
-				<a href="#resumo" id="imgperf" class="jumplink pic">
+			<section><!-- Perfil -->
+				<!-- <h4>Olá! Sou Giusley, ilustrador freelancer em Minas Gerais. Minhas especialidades incluem:</h4>
+				 --><div class='blk1'>
 					
-					<!-- <img src="img/me.jpg" alt="" /> -->
-					<picture>
-					<source srcset="img/foto00.png" media="(max-width: 1200px)">
-					<img src="img/foto00.png" srcset="img/foto00.png 600w, img/foto2.png 1200w" alt="…" />
-					</picture>
-				</a>
+					<h2><span class="skillLink">Desenvolvedor Web</span><span class="skillLink">Designer Gráfico</span><span class="skillLink">Ilustrador / Pintor</span></h2>
+					<!-- <img id='foto' draggable="false" src="img/jpg1.jpg" alt="" /> -->
+					<img id='foto' draggable="false" src="img/foto2.png" alt="" />
+					
+					<img id='stk1' class="stk" draggable="false" alt='' src="img/visual.png">
+					<img id='stk2' class="stk" draggable="false" alt='' src="img/h6.png">
+					<img id='stk3' class="stk" draggable="false" alt='' src="img/glider1.svg">
+					<img id='stk4' class="stk" draggable="false" alt='' src="img/glider2.svg">
+					<img id='stk5' class="stk" draggable="false" alt='' src="img/h4.png">
+					<img id='stk6' class="stk" draggable="false" alt='' src="img/h3.png">
+					
+					
+				</div>
+				<div id="wppr1">
+					<div class="skillSect">
+						
+						<span class="txtblk5">Como ilustrador, trabalho tanto com arte tradicional quanto digital, oferecendo uma variedade de estilos e técnicas para atender às necessidades de cada projeto. Cada trabalho é uma oportunidade de criar arte única e cativante, seja em papel ou na tela do computador.</span>
+						<p>Encomendas personalizadas de retratos, caricaturas e ilustrações sob medida para clientes individuais.</p>
+						<ul class="ulDetails">
+							<li class="cartaz-b">
+								<details>
+								<summary>Trabalhos Escolares</summary>
+								<p>Para trabalhos escolares, ofereço ilustrações criativas, incluindo cartazes, trabalho em cartolina, buscando sempre criar algo único e especial.</p>
+								<p style="display:none">Cada projeto é uma oportunidade de explorar diferentes técnicas e estilos, adaptando-me às necessidades específicas de cada trabalho.</p>
+								</details>
+							</li>
+							<li class="clau-b">
+								<details>
+								<summary>Realismo</summary>
+								<p>Para desenhos realistas, busco capturar a essência e os detalhes de forma precisa, criando imagens que parecem saltar da página.</p>
+								<p style="display:none">Cada projeto de desenho realista é uma oportunidade de explorar a profundidade e a complexidade da arte, buscando sempre alcançar o máximo de realismo possível.</p>
+								</details>
+							</li>
+							<li class="gnv-b">
+								<details>
+								<summary>Criação de Personagens</summary>
+								<p>Para a criação de personagens em estilos diversos, busco explorar diferentes técnicas e estilos de desenho, criando personagens únicos e cativantes.</p>
+								<p style="display:none">Cada projeto é uma oportunidade de dar vida a novas personalidades, adaptando-me aos diferentes universos e narrativas apresentadas.</p>
+								</details>
+							</li>
+							
+						</ul>
+						
+						<span class="txtblk5">
+						
+						 meu foco é sempre entregar trabalhos de alta qualidade e impacto visual. Desde ilustrações para publicidade, eventos e produtos, até animações e cartões de visita, busco sempre superar as expectativas dos clientes, criando designs que se destacam e comunicam de forma eficaz a mensagem desejada.</span>
+						
+						<ul class="ulDetails">
+							
+							<li class="CATpng-b">
+								<details>
+								<summary>Ilustrações para Publicidade</summary>
+								<p>Desenvolvo ilustrações para campanhas publicitárias, cartazes, banners e material promocional.</p>
+								</details>
+							</li>
+							
+							<li class="amnesia2-b">
+								<details>
+								<summary>Ilustrações para Eventos</summary>
+								<p>Produzo ilustrações para eventos corporativos, festas, casamentos e outras ocasiões especiais.</p>
+								</details>
+							</li>
+								
+							<li class="cd-b">
+								<details>
+								<summary>Ilustrações para Produtos</summary>
+								<p>Desenvolvo ilustrações para embalagens de produtos, rótulos, camisetas e outros itens promocionais.</p>
+								</details>
+							</li>
+							
+							<li class="giusleyGif-b">
+								<details>
+								<summary>Ilustrações para Animação</summary>
+								<p>storyboards, personagens e cenários para animações.</p>
+								</details>
+							</li>
+							
+							<li class="cartao-b">
+								<details>
+								<summary>Cartões de visita</summary>
+								<p>Design de cartões de visita</p>
+								</details>
+							</li>
+							
+						</ul>
+						<p>Estou disponível para projetos e encomendas. Entre em contato para mais informações!</p>
+						
+					</div>
+					
+					<div class="skillSect">
+						<span class="txtblk5">Como desenvolvedor web, trabalho tanto com tecnologias tradicionais quanto digitais, oferecendo uma variedade de habilidades e técnicas para atender às necessidades de cada projeto. Cada trabalho é uma oportunidade de criar websites e aplicações web únicas e funcionais, utilizando as mais recentes tecnologias e práticas de desenvolvimento.</span>
 				
-			</section>
+						<h4>Aumente as vendas do seu negócio com um site de alto impacto, personalizado, rápido e de alta conversão.</h4>
+						
+						<div class='blk2'>
+							<ul id="ul1">
+								<li>Crie uma vitrine virtual no maior espaço de vendas do mundo;</li>
+								<li>Divulgue seus serviços de forma prática e eficaz;</li>
+								<li>Atraia mais pessoas para o seu negócio diariamente;</li>
+								<li>Crie interesse pelo seu produto ou serviço em poucos minutos;</li>
+								<li>Mostre os benefícios, resultados e diferenciais, comprovando sua expertise;</li>
+								<li>Tenha páginas responsivas com carregamento em menos de 1 segundo;</li>
+								<li>Venda mais e de maneira recorrente para milhões de brasileiros;</li>
+								<li>Explore um oceano azul de possibilidades para o seu negócio.</li>
+							</ul>
+							<span class='spntxt'>O que acabei de te mostrar agora são apenas algumas das muitas vantagens que um site bem construído e otimizado vai fazer pelo seu negócio.
+							Com esta trilha em mãos, você vai elevar o seu negócio para o próximo nível e garantir uma estrutura de vendas eficiente e ágil.
+							A partir de tudo o que você viu agora, quero saber de você, está pronto para vender mais em 2024 com sites de alta conversão?
+							Está na hora de usar o poder da internet a seu favor para conquistar novos clientes, lucrar de forma recorrente e destacar sua empresa em 2024.
+							</span>
+						</div>
+						<div class='blk2'>
+							<ul class="elementor-icon-list-items">
+								<li class="elementor-icon-list-item">
+								<span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fas fa-angle-double-right"></i> </span>
+								<span class="elementor-icon-list-text">
+								  <cor>Páginas 100% personalizadas:</cor>
+								  
+								  sem templates prontos ou copia e cola de outros projetos;
+								</span>
+								</li>
+								<li class="elementor-icon-list-item">
+								<span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fas fa-angle-double-right"></i> </span>
+								<span class="elementor-icon-list-text">
+								  <cor>Design de alto impacto:</cor>
+								  
+								  atraente e compatível com a identidade visual da sua marca;
+								</span>
+								</li>
+								<li class="elementor-icon-list-item">
+								<span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fas fa-angle-double-right"></i> </span>
+								<span class="elementor-icon-list-text">
+								  <cor>Carregamento rápido:</cor>
+								  
+								  em menos de 1 segundo sua página será mostrada aos seus clientes;
+								</span>
+								</li>
+								
+								<li class="elementor-icon-list-item">
+								<span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fas fa-angle-double-right"></i> </span>
+								<span class="elementor-icon-list-text">
+								  <cor>Site responsivo:</cor>
+								  
+								  página adaptada para diferentes tamanhos de dispositivos;
+								</span>
+								</li>
+								<li class="elementor-icon-list-item">
+								<span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fas fa-angle-double-right"></i> </span>
+								<span class="elementor-icon-list-text">
+								  <cor>HTTPS e SSL:</cor>
+								  
+								  certificado digital que protege seus dados e informações, melhorando os resultados da sua página nas buscas do Google.
+								</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="wppr2">
+					<h4>Quais serviços você encontra no site?</h4>
+					<div class="blk3">
+						<div class="div-serv">
+							<h3>Sites One Page</h3>
+							<p>Foco principal: Apresentação abrangente e concisa de um negócio, produto ou serviço.</p>
+							<p>Estrutura: Página dividida em seções distintas para abordar diferentes aspectos do conteúdo (sobre, serviços, portfolio, contato etc.). O menu costuma ser fixo para facilitar a navegação dentro da página.</p>
+							<p>Exemplos: Portfolios freelancers, apresentações de startups, sites pessoais, sites promocionais de eventos ou produtos.</p>
+							<a href="https://www.giusley.com.br/ONSITE/" style="background:transparent;border:none;outline:none;" target="_blank"><i aria-hidden="true" class="fas fa-eye"></i>Demonstração</a>
+							<a href="https://forms.gle/RmN55K4CpkULRV1E9" target="_blank"><i aria-hidden="true" style="color:#53a0eb;display:contents;" class="fas fa-dollar-sign"></i>Orçamento</a>
+						</div>
+						<div class="div-serv">
+							<h3>Sites de Links</h3>
+							<p>Sites de links são páginas web que reúnem todos os links importantes de uma empresa.</p>
+							<p>Objetivos: Apresentar os canais de vendas e comunicação da empresa, direcionar o tráfego para ofertas específicas, fornecer informações adicionais sobre a empresa.</p>
+							<a href="links.html" style="background:transparent;border:none;outline:none;" target="_blank"><i aria-hidden="true" class="fas fa-eye"></i>Demonstração</a>
+							
+							<a href="https://api.whatsapp.com/send?phone=5531987438156&amp;text=Hello!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank"><i aria-hidden="true" style="color:#53a0eb;display:contents" class="fas fa-dollar-sign"></i>Orçamento</a>
+						</div>
+						<div class="div-serv">
+							<h3>Identidade Visual</h3>
+							<p>Identidade visual é o conjunto de elementos gráficos que representam uma marca, empresa, produto ou serviço. Ela é composta por elementos como logotipo, cores, tipografia, ícones, imagens, etc.</p>
+							<!-- <ul>
+								<li>Logotipo: O logotipo é o elemento mais importante da identidade visual.</li>
+								<li>Cores: As cores são um elemento poderoso da identidade visual.</li>
+								<li>Tipografia: A tipografia é o estilo da fonte usada na identidade visual.</li>
+								<li>Ícones: Os ícones são imagens gráficas que podem ser usadas para representar a marca.</li>
+								<li>Imagens: As imagens são uma forma eficaz de transmitir a mensagem da marca.</li>
+							</ul> -->
+							<img src="img/home/fontes.png" style="width:75%" alt=""/>
+							<a href="https://api.whatsapp.com/send?phone=5531987438156&amp;text=Hello!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank"><i aria-hidden="true" style="color:#53a0eb;display:contents" class="fas fa-dollar-sign"></i>Orçamento</a>
+						</div>
+						<div class="div-serv">
+							<h3>Cartão de Visita Virtual</h3>
+							<p>Um cartão de visita virtual em PDF é uma versão digital do tradicional cartão de visita físico.</p>
+							<p>Ele pode incluir links clicáveis para o site da empresa, perfis de mídia social ou outras informações relevantes. O cartão de visita virtual em PDF é uma maneira eficaz de compartilhar informações profissionais de forma digital e econômica.</p>
+							<a href="media/GiusleyCamiloDEV.pdf" style="background:transparent;border:none;outline:none;" download><i aria-hidden="true" class="fas fa-download"></i>Baixar</a>
+							<a href="https://api.whatsapp.com/send?phone=5531987438156&amp;text=Hello!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank"><i aria-hidden="true" style="color:#53a0eb;display:contents" class="fas fa-dollar-sign"></i>Orçamento</a>
+						</div>
+					</div>
+					<h4>Pra quem são os sites de alto impacto?</h4>
+					<div class="blk3">
+						<div class="div-serv2">
+							<h3>Infoprodutores</h3>
+							<p>Que desejam ter páginas rápidas, bonitas e otimizadas para seus lançamentos e perpétuos.</p>
+						</div>
+						<div class="div-serv2">
+							<h3>Co-Produtores</h3>
+							<p>Que procuram por profissional ágil e comprometida para criar e desenvolver páginas para seus clientes.</p>
+						</div>
+						<div class="div-serv2">
+							<h3>Prestadores de Serviço</h3>
+							<p>Que desejam criar páginas para atrair clientes e mostrar de forma mais atrativa os benefícios dos seus serviços.</p>
+						</div>
+						<div class="div-serv2">
+							<h3>Empreendedores</h3>
+							<p>Que buscam se inserir no mercado digital, fazendo deste meio um canal de vendas forte e lucrativo.</p>
+						</div>
+						<div class="div-serv2">
+							<h3>E-commerces</h3>
+							<p>Que desejam construir lojas virtuais otimizadas, eficientes e que facilitem a jornada de compra dos clientes.</p>
+						</div>
+						<div class="div-serv2">
+							<h3>Lojas Físicas</h3>
+							<p>Que querem marcar presença no digital e se destacar da concorrência, mesmo vendendo um produto físico.</p>
+						</div>
+					</div>
+				</div>
+				
+				<div id="wppr3">
+					<div id="bio">
+						<div>
+							<span class="txtblk5">Como desenvolvedor de jogos, desenvolvi um jogo da forca (carrasco) com interface moderna, usando a tecnologia HTML5.
+								<a href="https://giusley.itch.io/lorde-da-forca" target='_blank'>Lorde da Forca</a>
+							</span>
+							<iframe id="itframe" frameborder="0" src="https://itch.io/embed/2064352?border_width=0&amp;bg_color=252c48&amp;fg_color=ffffff&amp;link_color=171c32&amp;border_color=171c32" width="550" height="165"><a href="https://giusley.itch.io/lorde-da-forca">Lorde da Forca by Giusley</a></iframe>
+						</div>
+						<div>
+							<p>
+							Estou a mais de 10 anos no ramo digital, onde trabalhei com as mais variadas demandas: Gravação e edição de vídeos, fotografia, edição de imagens, criação de identidade visual, logomarcas e criação de sites.
+							</p>
+							<p>
+							Sou apaixonado pelo meu trabalho, e tenho certeza que esse é o meu propósito profissional, pois me sinto realizado com cada projeto que entrego para os meus clientes, sempre dou o meu máximo, sou caprichoso, detalhista, e o mais importante, comprometido.
+							</p>
+						</div>
+					</div>
+					<img decoding="async" width="212" height="222" src="img/editar/TIME.webp" id='stick' alt=''/>
+					<img decoding="async" src="img/giusleyBlk.png" id='foto3' alt=''/>
+				</div>
+				<div id="wppr4">
+					<div>
+						<h4>MEUS OBJETIVOS E COMPETÊNCIAS:</h4>
+						<ul id="competenc">
+						<li>Entendo e acompanho as tendências do mercado de design, criação de sites e digital. Sou sempre atualizado sobre as últimas novidades e tecnologias, para garantir que meus projetos sejam modernos e inovadores.</li>
+						<li>Faço um estudo do seu nicho de atuação e desenvolvo páginas que façam sentido para o seu negócio. Entendo o seu público-alvo, as suas necessidades e os seus objetivos, para criar um site que seja eficaz e atenda às suas expectativas.</li>
+						<li>Dou valor ao seu tempo e dinheiro, fazendo todo o investimento valer a pena e te trazer retornos. Meu objetivo é ajudá-lo a alcançar seus objetivos de negócios, por isso trabalho duro para garantir que seu site seja bem-sucedido.</li>
+						<li>Prezo pela qualidade, sucesso do cliente e personalização. Meus sites são desenvolvidos com atenção aos mínimos detalhes, para garantir que sejam de alta qualidade e atendam às suas necessidades específicas.</li>
+						<li>Cumpro com prazos e solicitações acordadas durante o projeto. Sou organizado e pontual, e sempre estou disponível para esclarecer dúvidas e atender às suas solicitações.</li>
+						<li>Ofereço suporte VIP durante a prestação dos serviços. Estou sempre disponível para ajudá-lo com qualquer problema ou dúvida que você possa ter.</li>
+						<li>Crio sites com muita dedicação, com atenção aos mínimos detalhes, tudo pensado para que a página seja perfeita. Meu objetivo é criar sites que sejam bonitos, funcionais e que transmitam a sua mensagem de forma clara e eficaz.</li>
+						</ul>
+					</div>
+				</div>
+				<!-- COMPLETAR DAQUI PARA BAIXO -->
+				<div id="wppr5" style="flex-direction:column">
+				
+				<div style="padding:0;">
+					<h4>Dúvidas Frequentes</h4>
+					<ul id="ulDuvFreq">
+						<li><strong class="duvFreq">Quais são as etapas para ter um site de alto impacto?</strong>
+							<ol id="olStyle">
+								<li>Descrever qual tipo de site ou serviço você deseja;</li>
+								<li>Explicar qual é sua necessidade com a demanda solicitada;</li>
+								<li>Após isso, será encaminhado para o pagamento através de um link;</li>
+								<li>Receberá um documento e informações para preencher o briefing do projeto;</li>
+								<li>Em alguns dias receberá seu site para aprovação.</li>
+							</ol>
+						</li>
+						<li>
+							<strong class="duvFreq">Você oferece outros serviços além de criação de sites?</strong>
+							<p>Além de criação de sites, também trabalho com os serviços de criação de copywrite (texto/conteúdo) tanto para sites quanto para outros serviços, desenvolvimento de logo/identidade visual e produção de artes para social media.</p>
+						</li>
+						<li>
+							<strong class="duvFreq">Como funciona e quais as formas de pagamento?</strong>
+							<p>Você poderá fazer o pagamento dos serviços por PIX, boleto ou transferência bancária;<br>
+							O valor total será pago 50% antes de iniciar e 50% quando finalizar o projeto.
+							</p>
+						</li>
+						<li>
+							<strong class="duvFreq">Depois de pronto tem algum valor mensal obrigatório?</strong>
+							<p>Ao contratar os serviços, você paga pelo valor do desenvolvimento da página, e os únicos custos adicionais que você terá serão com o domínio e hospedagem do site (que podem ser pagos tanto mensalmente quanto anualmente).</p>
+						</li>
+						
+						
+						
+						<li>
+							<strong class="duvFreq">Qual o prazo de entrega?</strong>
+							<p>O prazo de cada projeto varia de acordo com o tamanho e complexidade do site.<br>
+							Em média os sites tendem a ser totalmente desenvolvidos em torno de 21 dias úteis, porém pode ser em menos tempo ou em mais tempo, dependendo também da cooperação do cliente e de outros fatores de implementação do projeto.</p>
+    					</li>
+						<li>
+							<strong class="duvFreq">Por que criar o site em WordPress?</strong>
+							<p>O WordPress é a plataforma para construção de sites e gerenciamento de conteúdo (CMS) mais utilizada no mundo, atendendo mais de 42% de todos os sites publicados na Internet.
+							<br>Essa plataforma é usada em sites como portal G1, montadora de automóveis Ford, revista Forbes e MTV, Hostnet, entre muitos outros.
+							<br>O WordPress é a melhor e mais completa ferramenta do mercado para soluções web como loja virtual, blogs, sites grandes e pequenos com diversos conteúdos, e ainda tem um ecossistema enorme de plugins, templates, temas e soluções.</p>
+        				</li>
+						
+						<li>
+							<strong class="duvFreq">Que segurança eu tenho ao contratar um site?</strong>
+							<p>Na fase inicial do projeto, você receberá um contrato para assinatura digital (com validade jurídica) onde estará descrito prazos, valores, direitos e obrigações referentes ao serviço de criação de websites.</p>
+						</li>
+						<li>
+							<strong class="duvFreq">Qual a quantidade de alterações incluídas no projeto?</strong>
+							<p>Não há limite de alterações. O projeto só é finalizado quando o cliente estiver 100% satisfeito e feliz com o resultado final, lembrando que a alteração é feita respeitando o briefing inicial do projeto.</p>
+						</li>
+					</ul>
 			
-			<section>
-				<div id="myresume">
+   				</div>
+				
+				</div>
+				<div id="wppr6">
+					<!-- <div id="contrato">
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf9pkiY_3GlSfbeCl2Fe4MeKvGwRB_5iYBhFZy3QgXBnhj6fA/viewform?embedded=true" width="640" height="2296" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>   
+					</div> -->
+
+				<span class="trueR">Meu site é uma verdadeira representação de como sou como artista.
+				</span>
+				</div>
+				
+				
+			</section> 
+			
+			<section><div id="myresume">
 					<article><h4 class="title"><i class="fas fa-graduation-cap">&nbsp;</i>CONHECIMENTO BÁSICO</h4>
 					<ul>
 						<li class="conhecimento">Sistemas operacionais (Windows e MacOS)</li>
@@ -97,36 +393,48 @@
 					<li class="conhecimento">Inglês  &#8211; Intermediário</li>
 					</ul>
 					</article>
-					<article><h4 class="title"><i class="fas fa-briefcase">&nbsp;</i>HABILIDADES PROFISSIONAIS</h4>
+					<article><h4 class="title"><i class="fas fa-briefcase">&nbsp;</i> HABILIDADES PROFISSIONAIS</h4>
 						
-						
-						<ul>
-							<li>Front-end Web Designer</li>
-						</ul><p class="profissional">
-						<!-- <em>Front-end Web Designer</em><br> -->
-						Comecei a programar em 2012, atualmente trabalho como freelancer, 
-						resolvo algumas gambiarras e crio aplicações para diversos dispositivos 
-						utilizando a tecnologia html5.</p>
-						<!-- <h4 class="title"></h4> -->
-						
-						
-						<ul>
-							<li>Desenhista</li>
-						</ul><p class="profissional">
-						<!-- <em>Desenhista</em><br> -->
-						Ilustrações para trabalhos escolares, desenho realista, 
-						criação de personagens em estilos diversos.
-						Arte tradicional e digital. Ilustrador Freelancer em MG.</p>
+						<ul class="skills-list"><li>Front-end Web Designer</li></ul>
+						<p class="profissional">
+							Comecei a programar em 2012, atualmente trabalho como freelancer, 
+							resolvo algumas gambiarras e crio aplicações para diversos dispositivos 
+							utilizando a tecnologia HTML5.
+						</p>
+						  
+						<ul class="illustration-list"><li>Desenhista</li></ul>
+						<p class="profissional">
+							Ilustrações para trabalhos escolares, desenho realista, 
+							criação de personagens em estilos diversos.
+							Arte tradicional e digital. Ilustrador Freelancer em MG.
+						</p>
 						
 					</article>
 					<article><h4 class="title"><i class="fas fa-file-word">&nbsp;</i>HABILIDADES EM SOFTWARE</h4>
 						<ul id="ulsoft">
+							<li class="lisoft"><img src="img/mof.png" alt="" /><span>Microsoft 365</span></li>
+							<li class="lisoft"><img src="img/gcloud.png" alt="" /><span>Google Cloud</span></li>
+							<li class="lisoft"><img src="img/gsuit.png" alt="" /><span>Google Suite</span></li>
+							
+							<li class="lisoft"><img src="img/azure.png" alt="" /><span>Microsoft Azure</span></li>
+							<li class="lisoft"><img src="img/visual.png" alt="" /><span>Visual Studio</span></li>
 							<li class="lisoft"><img src="img/h6.png" alt="" /><span>Android Studio</span></li>
-							<li class="lisoft"><img src="img/IntelliJ.png" alt="" /><span>IntelliJ</span></li>
+							
 							<li class="lisoft"><img src="img/h3.png" alt="" /><span>Corel Draw</span></li>
+							<li class="lisoft"><img src="img/ilus.png" alt="" /><span>Adobe Ilustrator</span></li>
 							<li class="lisoft"><img src="img/h1.png" alt="" /><span>Photoshop</span></li>
-							<li class="lisoft"><img src="img/h5.png" alt="" /><span>Sony Vegas</span></li>
+							
 							<li class="lisoft"><img src="img/h4.png" alt="" /><span>Paint net</span></li>
+							<li class="lisoft"><img src="img/inkscape.png" alt="" /><span>Inkscape</span></li>
+							<li class="lisoft"><img src="img/h5.png" alt="" /><span>Sony Vegas</span></li>
+							
+							<li class="lisoft"><img src="img/audacity.png" alt="" /><span>Audacity</span></li>
+							<li class="lisoft"><img src="img/note.png" alt="" /><span>Notepad++</span></li>
+							<li class="lisoft"><img src="img/IntelliJ.png" alt="" /><span>IntelliJ</span></li>
+							
+							<li class="lisoft"><img src="img/gdevelop.png" alt="" /><span>Gdevelop5</span></li>
+							<li class="lisoft"><img src="img/git.png" alt="" /><span>Git</span></li>
+							<li class="lisoft"><img src="img/unnamed.png" alt="" /><span>SPCK Editor</span></li>
 						</ul>
 					</article>
 					<article><h4 class="title"><i class="fas fa-file-code">&nbsp;</i>HABILIDADES EM PROGRAMAÇÃO</h4>
@@ -135,11 +443,14 @@
 							<tr><td class="skillname">HTML5 </td><td class="tdskill"><span style="width:95%" class="skillrange">Avançado</span></td></tr>
 							<tr><td class="skillname">CSS3 </td><td class="tdskill"><span style="width:95%" class="skillrange">Avançado</span></td></tr>
 							<tr><td class="skillname">JAVASCRIPT </td><td class="tdskill"><span style="width:95%" class="skillrange">Avançado</span></td></tr>
+							<tr><td class="skillname">XML </td><td class="tdskill"><span style="width:95%" class="skillrange">Avançado</span></td></tr>
+							<tr><td class="skillname">JSON </td><td class="tdskill"><span style="width:95%" class="skillrange">Avançado</span></td></tr>
 							<tr><td class="skillname">JAVA </td><td class="tdskill"><span style="width:45%" class="skillrange">Médio</span></td></tr>
-							<tr><td class="skillname">XML </td><td class="tdskill"><span style="width:45%" class="skillrange">Médio</span></td></tr>
-							<tr><td class="skillname">JSON </td><td class="tdskill"><span style="width:45%" class="skillrange">Médio</span></td></tr>
+							<tr><td class="skillname">C# </td><td class="tdskill"><span style="width:45%" class="skillrange">Médio</span></td></tr>
+							
 							<tr><td class="skillname">JQUERY </td><td class="tdskill"><span style="width:25%" class="skillrange">Básico</span></td></tr>
 							<tr><td class="skillname">PHP </td><td class="tdskill"><span style="width:25%" class="skillrange">Básico</span></td></tr>
+							
 							</tbody>
 						</table>
 					</article>
@@ -156,26 +467,28 @@
 						
 							<article><h4 class="title"><i class="fas fa-pen-fancy">&nbsp;</i>Veja meu portfólio</h4>
 								
-								<img class="desenhosthumbnail" src="img/portfolio/pic01.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic02.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic03.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic04.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic05.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic06.jpg" alt=""/>
-								
-								
-								<img class="desenhosthumbnail" src="img/portfolio/pic07.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic08.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic09.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic10.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic11.jpg" alt=""/>
-								<img class="desenhosthumbnail" src="img/portfolio/pic12.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/dbz-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/goku-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/agata-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/a7x-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/adv-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/ariel-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/jeff-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/opala-min.png" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/frisk-min.png" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/andromeda-min.jpg" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/shiriu-min.png" alt=""/>
+								<img class="desenhosthumbnail" src="img/portfolio/min/fe-min.png" alt=""/>
 								
 							</article>
 							
 							<article>
 								<h4 class="title"><i class="fas fa-puzzle-piece">&nbsp;</i>Alguns Jogos Favoritos</h4>
+								
+								<ul style="position:absolute;padding:2em 0 0 0;"><li style="display:block;position:relative;width:calc(100% - 2em);height:calc(165px - 1em);"><iframe class="itframe2" frameborder="0" 
+								src="https://itch.io/embed/2064352?border_width=0&amp;bg_color=252c48&amp;fg_color=ffffff&amp;link_color=171c32&amp;border_color=171c32" width="320" height="165"><a href="https://giusley.itch.io/lorde-da-forca">Lorde da Forca by Giusley</a></iframe></li></ul>
 								<ul class="hobicons">
+									
 									<li class="listalistulli"><img src="img/hobbies/jogo1.jpg" alt="" />League of Legends</li>
 									<li class="listalistulli"><img src="img/hobbies/jogo2.jpg" alt="" />The Sims 3</li>
 									<li class="listalistulli"><img src="img/hobbies/jogo3.jpg" alt="" />Sonic Adventure 2</li>
@@ -189,6 +502,17 @@
 							
 							<article>
 								<h4 class="title"><i class="fas fa-music">&nbsp;</i>Bandas de rock favoritas</h4>
+								<ul style="position:absolute;padding:2em 0 0 0;">
+								<li id='responseSpotfy' style="display:block;position:relative;width:calc(100% - 2em);height:calc(165px - 1em);">
+									<iframe class="itframe2" style="border-radius:12px" 
+									src="https://open.spotify.com/embed/track/106Uop2gW5ruIR2SCZEDBo?utm_source=generator&theme=0" 
+									width="100%" height="165" frameBorder="0"  
+									allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+									loading="lazy"></iframe>
+								</li></ul>
+								
+								
+								
 								<ul class="hobicons">
 									<li class="listalistulli nolistyle"><img src="img/hobbies/music1.jpg" alt="" />Pink Floyd</li>
 									<li class="listalistulli nolistyle"><img src="img/hobbies/music2.jpg" alt="" />Iron Maiden</li>
@@ -231,7 +555,9 @@
 						</div>
 					</article>
 					
-					<article><h4 class="title"><i class="fas fa-user-edit">&nbsp;</i>AUTOAVALIAÇÃO</h4>
+					
+					
+					<article style="display:none"><h4 class="title"><i class="fas fa-user-edit">&nbsp;</i>AUTOAVALIAÇÃO</h4>
 						<p class="profissional" style="border:dashed .1rem #626a8a;text-align: left;padding:.4em">
 						<img src="img/projEu.png" id="minavt" alt="" />
 						Sou disciplinado, sempre educado, converso pouco, somente o necessário, 
@@ -251,14 +577,17 @@
 						
 						<h4 class="title"></h4>
 						<p>
-						<button><i class="fas fa-file-pdf">&nbsp;</i>BAIXAR CURRÍCULO</button>
+						<!-- <button><a href="media/GiusleyCamiloDEV.docx" download><i class="fas fa-user-edit">&nbsp;</i>BAIXAR CURRÍCULO</a></button> -->
+						<a href="media/GiusleyCamiloDEV.docx" download><i class="fas fa-user-edit">&nbsp;</i>CURRÍCULO</a>
 						</p>
 					</article>
-					
+					<article>
+						<span id="saibaMais"><i class="fas fa-plus-square"></i> Saiba Mais</span>
+					</article>
 				</div>
 			</section>
-			
-			<section><h4 class="title" style="transition:ease-in-out 2s">Todos os meus projetos</h4>
+			<section>
+				<!-- Footer10/01/2024 <h4 class="title" style="transition:ease-in-out 2s">Todos os meus projetos</h4> -->
 				<div id="portfolioWrapper">
 					
 					<ul id="portfolioLinks">
@@ -266,98 +595,177 @@
 						<li data-item="desenhos" title="Desenhos"><i class="fas fa-pencil-ruler">&nbsp;</i>Desenhos</li>
 						<li data-item="pintura" title="Pintura"><i class="fas fa-paint-roller">&nbsp;</i>Pinturas</li>
 						<li data-item="digital" title="Arte digital"><i class="fas fa-image">&nbsp;</i>Digital</li>
-						<li data-item="apps" title="Aplicativos"><i class="fab fa-app-store-ios">&nbsp;</i>Aplicativos</li>
+						<li data-item="apps" title="Aplicativos"><i class="fab fa-app-store-ios">&nbsp;</i>Apps</li>
 						
 					</ul>
-					<article>
-					
-						<div data-item="desenhos"><span class="infoArt">Adventure Time</span><img src="img/portfolio/pic01.jpg" alt=""/></div>
-						<div data-item="pintura"><span class="infoArt">div 2</span><img src="img/portfolio/pic02.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 3</span><img src="img/portfolio/pic03.jpg" alt=""/></div>
-						<div data-item="desenhos"><span class="infoArt">div 4</span><img src="img/portfolio/pic04.jpg" alt=""/></div>
-						<div data-item="pintura"><span class="infoArt">div 5</span><img src="img/portfolio/pic05.jpg" alt=""/></div>
-						<div data-item="digital"><span class="infoArt">div 6</span><img src="img/portfolio/pic06.jpg" alt=""/></div>
-						<div data-item="desenhos"><span class="infoArt">div 7</span><img src="img/portfolio/pic07.jpg" alt=""/></div>
-						<div data-item="digital"><span class="infoArt">div 8</span><img src="img/portfolio/pic08.jpg" alt=""/></div>
-						<div data-item="desenhos"><span class="infoArt">div 9</span><img src="img/portfolio/pic09.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 10</span><img src="img/portfolio/pic10.jpg" alt=""/></div>
-						<div data-item="desenhos"><span class="infoArt">div 11</span><img src="img/portfolio/pic11.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 12</span><img src="img/portfolio/pic12.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 13</span><img src="img/portfolio/pic13.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 14</span><img src="img/portfolio/pic14.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 15</span><img src="img/portfolio/pic15.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 16</span><img src="img/portfolio/pic16.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 17</span><img src="img/portfolio/pic17.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 18</span><img src="img/portfolio/pic18.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 19</span><img src="img/portfolio/pic19.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 20</span><img src="img/portfolio/pic20.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 21</span><img src="img/portfolio/pic21.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 22</span><img src="img/portfolio/pic22.jpg" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 23</span><img src="img/portfolio/pic23.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 24</span><img src="img/portfolio/pic24.png" alt=""/></div>
-						<div data-item="apps"><span class="infoArt">div 25</span><img src="img/portfolio/pic25.jpg" alt=""/></div>
+					<article id="thumbsArticle">
+						<div data-item="desenhos"><span class="infoArt">Adventure Time</span><span class="sell" data-id="statusIndicator">
+							<!-- <i class="fas fa-money-bill-wave">&nbsp;</i> -->Á venda</span>
+							<img src="img/portfolio/min/adv-min.jpg" alt=""/>
+						</div>
+						<div data-item="desenhos"><span class="infoArt">Dragon Ball Z</span><img src="img/portfolio/min/dbz-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Goku</span><img src="img/portfolio/min/goku-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Shun de Andrômeda</span><img src="img/portfolio/min/andromeda-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Shiryu de Dragão</span><img src="img/portfolio/min/shiriu-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Itachi Uchiha</span><img src="img/portfolio/min/itachi-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">AC/DC Poster</span><img src="img/portfolio/min/acdc2-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Jeff The Killer</span><img src="img/portfolio/min/jeff-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Jeff Rasgado</span><img src="img/portfolio/min/jeffrasgado-min.jpg" alt=""/></div>
+						<div data-item="pintura"><span class="infoArt">Bruno Mars</span><img src="img/portfolio/min/bruno-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Avenged Sevenfold</span><img src="img/portfolio/min/a7x-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Fé</span><img src="img/portfolio/min/fe-min.jpg" alt=""/></div>
+						<div data-item="pintura"><span class="infoArt">Batman</span><img src="img/portfolio/min/batman-min.jpg" alt=""/></div>
+						<div data-item="pintura"><span class="infoArt">Slipknot</span><img src="img/portfolio/min/slipknot-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Hellen</span><img src="img/portfolio/min/hellen-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Dragão Chines</span><img src="img/portfolio/min/dragaochines-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Jasmine</span><img src="img/portfolio/min/jasmine-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Rick Sanchez</span><img src="img/portfolio/min/rick-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Goku</span><img src="img/portfolio/min/goku2-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Miranha</span><img src="img/portfolio/min/miranha-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Billy Joe - Green Day</span><img src="img/portfolio/min/billyjoe-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Asuka</span><img src="img/portfolio/min/asuka-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Juliana Xavier</span><img src="img/portfolio/min/agata-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Gisele Bündchen</span><img src="img/portfolio/min/gis-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Desenho Realista - Claudete </span><img src="img/portfolio/min/claudete-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Desenho Realista</span><img src="img/portfolio/min/opala-min.png" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Mascote Empresa GNV</span><img src="img/portfolio/min/gnv-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Gato de botas</span><img src="img/portfolio/min/gatobotas-min.jpg" alt=""/></div>
+						<div data-item="pintura"><span class="infoArt">Sons Of Anarchy</span><img src="img/portfolio/min/soa-min.jpg" alt=""/></div>
+						<div data-item="pintura"><span class="infoArt">Rancho Barra Alegre</span><img src="img/portfolio/min/caio-min.jpg" alt=""/></div>
+						
+						<div data-item="desenhos"><span class="infoArt">Retrato Realista Alice </span><img src="img/portfolio/min/alice-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">BS Logo</span><img src="img/portfolio/min/bs-min.png" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Motoclube João Catraca Club Ipatinga MG</span><img src="img/portfolio/min/rxjcc-min.jpg" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Trombeta</span><img src="img/portfolio/min/trombeta-min.jpg" alt=""/></div>
+						
+						<div data-item="digital"><span class="infoArt">Logo Restaurante</span><img src="img/portfolio/min/restaurante-min.png" alt=""/></div>
+						
+						<div data-item="digital"><span class="infoArt">Divulgação Promoção</span><img src="img/portfolio/min/CATpng-min.png" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Divulgação Promoção</span><img src="img/portfolio/min/promo1-2-min.png" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Divulgação Loja</span><img src="img/portfolio/min/foto3-min.png" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Encarte CD Propósito da Cruz</span><img src="img/portfolio/min/capaproposito-min.jpg" alt=""/></div>
+						
+						<div data-item="digital"><span class="infoArt">Divulgação Show</span><img src="img/portfolio/min/marc-min.png" alt=""/></div>
+						<div data-link="https://giusley.itch.io/lorde-da-forca" data-item="apps"><span class="infoArt"><a href="https://giusley.itch.io/lorde-da-forca" target="_blank">Jogo Lorde da Forca</a></span><img src="img/portfolio/min/scr3-min.png" alt=""/></div>
+						<div data-item="apps"><span class="infoArt">REVOTAB</span><img src="img/portfolio/min/REVOTAB-min.png" alt=""/></div>
+						<div data-item="apps"><span class="infoArt">Home Page Ashe</span><img src="img/portfolio/min/pagin-min.png" alt=""/></div>
+						
+						<div data-item="digital"><span class="infoArt">Divulgação Evento</span><img src="img/portfolio/min/amnesia2-min.jpg" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Divulgação Logomarca</span><img src="img/portfolio/min/NENECOLOGO1-min.png" alt=""/></div>
+						
+						<div data-item="digital"><span class="infoArt">Divulgação Promoção</span><img src="img/portfolio/min/02-min.png" alt=""/></div>
+						<div data-item="digital"><span class="infoArt">Estampa Camisa</span><img src="img/portfolio/min/camisa4-min.png" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Cave Story - Fan Art</span><img src="img/portfolio/min/cavestory-min.jpg" alt=""/></div>
+						
+						<div data-item="pintura"><span class="infoArt">Sonic</span><img src="img/portfolio/min/sonic-min.jpg" alt=""/></div>
+						<div data-item="desenhos"><span class="infoArt">Anatomia Estudo</span><img src="img/portfolio/min/anat-min.jpg" alt=""/></div>
+						<div data-link="https://codepen.io/Giusley-Camilo/pen/zYjPjZJ" data-item="apps"><span class="infoArt"><a href="https://codepen.io/Giusley-Camilo/pen/zYjPjZJ" target="_blank">Simulador de sistema elevador</a></span><img src="img/portfolio/min/elevador-min.png" alt=""/></div>
+						
+						<div data-link="https://codepen.io/Giusley-Camilo/pen/ExdQyWe" data-item="apps"><span class="infoArt"><a href="https://codepen.io/Giusley-Camilo/pen/ExdQyWe" target="_blank">Cenário Caramelo Pixel Art</a></span><img src="img/portfolio/min/caramelo-min.png" alt=""/></div>
+						<div data-link="https://codepen.io/Giusley-Camilo/pen/gOQXLjX" data-item="apps"><span class="infoArt"><a href="https://codepen.io/Giusley-Camilo/pen/gOQXLjX" target="_blank">Simulador de Máquina de vendas</a></span><img src="img/portfolio/min/vendingmachine-min.png" alt=""/></div>
+						
 					</article>
 				</div>
+				
+				
+				
 			</section>
-			
 			<section>
-				
-				<div id="divCel">
-					<h4 class="title"><i class="fas fa-phone">&nbsp;</i>Celular</h4>
-					<ul class="ulContato">
-						<li><img src="img/contato/call.png" alt="" /><span>Ligar</span></li>
-						<li><img src="img/contato/whatsapp.png" alt="" /><span>WhatsApp</span></li>
-						<li><img src="img/contato/telegram.png" alt="" /><span>Telegram</span></li>
-						<li><img src="img/contato/sms.png" alt="" /><span>SMS</span></li>
-						<li><img src="img/contato/email.png" alt="" /><span>Email</span></li>
+				<div id="contatoWrapper">
+					<div id="divCel">
+						<h4 class="title"><i class="fas fa-phone">&nbsp;</i>Celular</h4>
+						<ul class="ulContato">
+							<li><a href="tel:+31987438156"><img src="img/contato/call.png" alt="" /><span>Ligar</span></a></li>
+							<li><a href="https://api.whatsapp.com/send?phone=31987438156"><img src="img/contato/whatsapp.png" alt="" /><span>WhatsApp</span></a></li>
+							<li><a href="mailto:giusley3@gmail.com"><img src="img/contato/email.png" alt="" /><span>Email</span></a></li>
+							<li><a href="media/GiusleyCamiloDEV.pdf" download><button><i class="fas fa-file-pdf">&nbsp;</i>Cartão de Visita</button></a></li>
+						</ul>
 						
-					</ul>
-				</div>
-				<div id="divRSociais">
+					</div>
 					
-					<h4 class="title"><i class="fas fa-hashtag">&nbsp;</i>Redes sociais</h4>
+					<div id="divRSociais">
+						<h4 class="title"><i class="fas fa-hashtag">&nbsp;</i>Redes sociais</h4>
+						<ul class="ulContato">
+							<li><a href="https://br.linkedin.com/in/giusley-camilo-arruda-18139898" target="_blank"><img src="img/contato/lilin.png" alt="" /><span>LinkedIn</span></a></li>
+							<li><a href="https://www.facebook.com/giusley" target="_blank"><img src="img/contato/lifac.png" alt="" /><span>Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/giusley2/" target="_blank"><img src="img/contato/liins.png" alt="" /><span>Instagram</span></a></li>
+							<li><a href="https://twitter.com/giusley3" target="_blank"><img src="img/contato/litwi2.png" alt="" /><span>twitter/X</span></a></li>
+							
+							
+						</ul>
+						
+					</div>
 					
-					<ul class="ulContato">
-						<li><img src="img/contato/lifac.png" alt="" /><span>Facebook</span></li>
-						<li><img src="img/contato/liins.png" alt="" /><span>Instagram</span></li>
-						<li><img src="img/contato/litwi.png" alt="" /><span>Twitter</span></li>
-						<li><img src="img/contato/lilin.png" alt="" /><span>LinkedIn</span></li>
-						<li><img src="img/contato/lidev.png" alt="" /><span>DeviantArt</span></li>
-						<li><img src="img/contato/licod.png" alt="" /><span>Codepen</span></li>
-						<!-- <li><img src="img/contato/liyou.png" alt="" /><span>Canal no Youtube</span></li> 
-						<li><img src="img/contato/lipin.png" alt="" /><span>Pinterest</span></li>-->
-					</ul>
+					<div id="divComunidades">
+						<h4 class="title"><i class="fas fa-code">&nbsp;</i>Comunidades Programação</h4>
+						<ul class="ulContato">
+							<li><a id='codepenLink' href="https://codepen.io/Giusley-Camilo/full/zYjPjZJ" target="_blank"><img src="img/contato/licod.png" alt="" /><span>CodePen</span></a></li>
+							<li><a href="https://github.com/Giusley" target="_blank"><img src="img/contato/ligit2.png" alt="" /><span>GitHub</span></a></li>
+						</ul>
+					</div>
 					
+					<div id="divEmail">
+						<h4 class="title"><i class="fas fa-envelope">&nbsp;</i>Enviar mensagem</h4>
+						<form id="formulario" autocomplete="off">
+							<label for="customer_name">Nome </label>
+							<input type="text" name="customer_name" id="customer_name" required>
+							<label for="email_address">Email </label>
+							<input type="email" name="email_address" id="email_address">
+							<label for="comments">Mensagem</label>
+							<textarea name="comments" id="comments" maxlength="500"></textarea>
+							<button><i class="fas fa-paper-plane">&nbsp;</i>Enviar</button>
+						</form>
+					</div>
+					
+					
+					
+					<p>Se você gostou do meu trabalho e precisa de um profissional para construir seu site ou aplicativo, tenho certeza que está no lugar certo! Entre em contato comigo para fazer seu orçamento.
+					</p>
 				</div>
-				<p>Se você gostou do meu trabalho e precisa de um profissional para construir seu site ou aplicativo ou do seu negócio, tenho certeza que está no lugar certo! Entre em contato comigo para fazer seu orçamento.
-				</p>
-				<div id="divEmail">
-					<h4 class="title"><i class="fas fa-envelope">&nbsp;</i>Enviar mensagem</h4>
-					<form id="formulario" autocomplete="off">
-						<label for="customer_name">Nome </label>
-						<input type="text" name="customer_name" id="customer_name" required>
-						<label for="email_address">Email </label>
-						<input type="email" name="email_address" id="email_address">
-						<label for="comments">Mensagem</label>
-						<textarea name="comments" id="comments" maxlength="500"></textarea>
-						<button><i class="fas fa-paper-plane">&nbsp;</i>Enviar</button>
-					</form>
-				</div>
-				
-				
 			</section>
-			
 		</main>
 		
 		<!-- Footer -->
 		<footer>
 			<ul class="copyright">
-				<li>Giusley Camilo © Sete Lagoas MG - 2021</li>
+				<li>Giusley Camilo © Sete Lagoas MG</li>
 			</ul>
+			<span class="scroll-watcher"></span>
 		</footer>
 		
 	</div>
+	<div id="galeriaWrapper"><div id="galeriaWrapperTitle"><i class="fas fa-link"></i>text</div>
+		<div class="galeria-top-bar">
+			<div class="galeriaWrapperCounter">1 / 7</div>
+			
+			<button class="galeriaWrapperBtn btn-galeria-share btn-galeria-share-disabled" title="Share"><i class="fas fa-share-alt">&nbsp;</i></button>
+			<button class="galeriaWrapperBtn btn-galeria-zoom" title="Zoom in/out"><i id='zoomIco' class="fas fa-search-plus">&nbsp;</i></button>
+			<button class="galeriaWrapperBtn btn-galeria-fs" title="Toggle fullscreen"><i id="fullIco" class="fas fa-expand">&nbsp;</i></button>
+			<button class="galeriaWrapperBtn btn-galeria-close" title="Close (Esc)">❌</button>
+		</div>
+		<div id="galeriaImagem">
+			
+			<img src="img/load.png" id="loadingIcon" draggable='false' alt=""/>
+			<img src="" id="responseImgGalery" draggable='false' alt=""/>
+		
+		</div>
+		
+		<button id="previousBtn" class="galeriaWrapperBtn btn-arrow-left" title="Previous (arrow left)"><i class="fas fa-arrow-left">&nbsp;</i></button>
+		<button id="nextBtn" class="galeriaWrapperBtn btn-arrow-right" title="Next (arrow right)"><i class="fas fa-arrow-right">&nbsp;</i></button>
+		
+
+	</div>
+	
+	<button onclick="topFunction()" id="myBtn" class="btn show" title="Go to top"><i class="fas fa-arrow-up"></i></button>
 	<!-- Scripts -->
-	<script type="text/javascript" src="js/app.js"></script>
+	
 </body>
 </html>
