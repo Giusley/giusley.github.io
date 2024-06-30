@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Giusley Camilo
+N:Camilo;Giusley;;;
+item1.EMAIL;TYPE=INTERNET:giusley2@gmail.com
+item1.X-ABLabel:
+item2.EMAIL;TYPE=INTERNET:giusley3@gmail.com
+item2.X-ABLabel:
+TEL;TYPE=CELL:31 98743-8156
+BDAY:19931204
+item3.URL:http\://www.giusley.com.br/
+item3.X-ABLabel:
+NOTE:Desenvolvedor web apaixonado por JavaScript\, especializado em HTML5 e
+  fluente em diversas tecnologias. Comprometido com a entrega de soluções e
+ ficientes e inovadoras para desafios complexos.\nFaço ilustrações para tra
+ balhos escolares\, desenho realista\, criação de personagens em estilos di
+ versos. Arte tradicional e digital. Ilustrador Freelancer em MG.
+CATEGORIES:Importado em 17/01,myContacts
+END:VCARD
