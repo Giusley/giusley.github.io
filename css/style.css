@@ -1052,15 +1052,15 @@ h2{
 
 @keyframes pulsar {
   0% {
-    transform: scale(1);
+    transform: scale(.89);
     
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
     
   }
   100% {
-    transform: scale(1);
+    transform: scale(.89);
    
   }
 }
